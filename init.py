@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Constants section
-HOST = os.getenv("HOST")
-DB = os.getenv("DB")
+HOST: str | None = os.getenv("HOST")
+DB: str | None = os.getenv("DB")
 
 
 db = SQLAlchemy()
