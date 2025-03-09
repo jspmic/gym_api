@@ -2,7 +2,7 @@ from init import db
 
 
 class Sets(db.Model):
-    __tablename__ = "Exercise"
+    __tablename__ = "Sets"
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     sets = db.Column(db.VARCHAR(5), nullable=False, unique=False)
 
