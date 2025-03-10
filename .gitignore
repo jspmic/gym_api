@@ -1,3 +1,5 @@
 *.env
+.venv
 run.py
+instance
 __*
